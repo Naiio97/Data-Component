@@ -11,7 +11,7 @@ body {
     font-family: 'Outfit', sans-serif; 
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom;
+    /* background-position: bottom; */
     background-image: url("./images/bg-desktop.png");
     
 }
