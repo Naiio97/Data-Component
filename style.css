@@ -9,6 +9,7 @@
 body {
     font-family: "Raleway", sans-serif;
     background-image: url("./images/bg-desktop.png");
+    background-color: rgba(11, 14, 34);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -23,6 +24,7 @@ body {
 .container {
     height: 300px;
     width: 1200px;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -31,16 +33,15 @@ body {
     width: 450px;
     border-radius: 20px 120px 20px 20px;
     background-color: rgba(21, 29, 90);
-    display: inline-block;
 }
 
 .data {
     height: 190px;
     width: 750px;
     margin-left: 31px;
+    margin-top: 60px;
     background-color: rgba(21, 29, 90);
     border-radius: 20px;
-    display: inline-block;
 }
 
 .main-logo img {
