@@ -6,53 +6,61 @@
     padding: 0;
 }
 
-html {
-    background: url("./images/bg-desktop.png");
-    background-color: rgba(11, 14, 34);
-    background-repeat: no-repeat;
+body {
+    background-color: rgba(11, 14, 34) ;
+    font-family: 'Outfit', sans-serif; */
+}
+body:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    min-height: 50%;
+    width: 100%;
+    background-image: url("./images/bg-desktop.png");
     background-size: cover;
-    background-position: 0 730px;
-    font-family: 'Outfit', sans-serif;
+    background-position: top;
+    background-repeat: no-repeat;
+    z-index: -5;
 }
 
 .container {
     margin: 580px auto;
     height: 300px;
-    width: 1440px;
+    width: 1200px;
     display: flex;
 }
 
 .profile {
-    height: 300px;
-    width: 550px;
-    border-radius: 20px 160px 20px 20px;
+    height: 250px;
+    width: 450px;
+    border-radius: 20px 120px 20px 20px;
     background-color: rgba(21, 29, 90);
     display: inline-block;
     position: relative;
 }
 
 .data {
-    height: 220px;
-    width: 850px;
+    height: 190px;
+    width: 750px;
     margin-left: 31px;
     background-color: rgba(21, 29, 90);
     border-radius: 20px;
     display: inline-block;
     position: relative;
-    top: 80px;
+    top: 71px;
 }
 
 .main-logo img {
     position: absolute;
     top: 60px;
     left: 60px;
-    width: 190px;
-    height: 70px;
+    width: 160px;
+    height: 50px;
 }
 
 .small-logos {
     position: absolute;
-    top: 170px;
+    top: 140px;
     left: 60px;
 }
 
@@ -63,34 +71,34 @@ html {
     border-radius: 10px;
 }
 .small-logos div img {
-    width: 60px;
-    height: 60px;  
+    width: 50px;
+    height: 50px;  
 }
 
 .document img {
-    padding: 15px 17px 15px 17px; 
+    padding: 13px 15px 12px 15px; 
 }
 
 .folder img {
-    padding: 17px 15px 17px 15px;
+    padding: 14px 12px 14px 12px;
 }
 
 .upload img {
-    padding: 19px 15px 19px 15px;
+    padding: 15px 12px 15px 12px;
 }
 
 .data-left {
-    width: 180px;
-    height: 70px;
+    width: 130px;
+    height: 65px;
     background: white;
     float: right;
     position: relative;
-    top: -40px;
-    right: 50px;
+    top: -35px;
+    right: 90px;
     border-radius: 10px 10px 0 10px;
     text-align: center;
     padding-top: 5px;
-    font-size: 12px;
+    font-size: 10gipx;
     color: rgb(158, 158, 158);
 }
 
@@ -99,7 +107,7 @@ html {
     font-weight: 700;
     color: rgba(10, 14, 36);
     position: relative;
-    top: 11px;
+    top: 5px;
     right: 5px;
 }
 
@@ -107,43 +115,41 @@ html {
 .arrow {
     width: 0px; 
     height: 0px; 
-    border-left: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-right:40px solid white;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid white;
     float: right;
     position: relative;
     top: 30px;
-    right: -130px
+    left: 40px
 }
-
-
 
 p {
     color: white;
     position: absolute;
-    top: 70px;
+    top: 40px;
     left: 50px;
     font-weight: 400;
     font-size: 20px;
 }
 
 .bar {
-    width: 750px;
+    width: 620px;
     height: 20px;
     position: absolute;
-    top: 110px;
+    top: 80px;
     left: 50px;
     border-radius: 50px;
     background: rgba(16, 20, 58)
 }
 
 .color-bar {
-    width: 550px;
+    width: 450px;
     height: 14px;
     border-radius: 50px;
     background: linear-gradient(to right , rgba(255, 137, 131),rgba(255, 0, 134)); 
     position: relative;
-    top: 2.5px;
+    top: 3px;
     left: 4px;
 }
 
@@ -153,8 +159,8 @@ p {
     border-radius: 50px;
     background: white;
     position: absolute;
-    left: 538px;
-    margin-top: 2px;
+    left: 437px;
+    margin-top: 1.8px;
 
 }
 
@@ -162,7 +168,7 @@ p {
     font-size: 14px;
     color: white;
     position: absolute;
-    top: 140px;
+    top: 120px;
     left: 50px;
     font-weight: 700;
 }
@@ -172,9 +178,8 @@ p {
     color: white;
     float: right;
     position: relative;
-    top: 140px;
-    left: 210px;
+    top: 120px;
+    left: 120px;
     font-weight: 700;
-    
 }
 
