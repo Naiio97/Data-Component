@@ -9,10 +9,10 @@
 body {
     background-color: rgba(11, 14, 34) ;
     font-family: 'Outfit', sans-serif; 
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 750px;
-    background-image: url("./images/bg-desktop.png");
+    background-image: url("./images/bg-desktop.png"); */
     
 }
 /* body:after {
