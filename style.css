@@ -7,29 +7,20 @@
 }
 
 body {
-    background-color: rgba(11, 14, 34) ;
-    font-family: 'Outfit', sans-serif; 
-    /* background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 750px;
-    background-image: url("./images/bg-desktop.png"); */
-    
-}
-/* body:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    min-height: 50%;
-   min-height: 50%;
+    font-family: "Raleway", sans-serif;
     background-image: url("./images/bg-desktop.png");
-    background-size: cover;
-    background-position: top;
     background-repeat: no-repeat;
-    z-index: -5;
-} */
+    background-size: contain;
+    background-position: bottom;
+    background-color: var();
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .container {
-    margin: 580px auto;
     height: 300px;
     width: 1200px;
     display: flex;
@@ -41,8 +32,6 @@ body {
     border-radius: 20px 120px 20px 20px;
     background-color: rgba(21, 29, 90);
     display: inline-block;
-    position: relative;
-    top: 50px;
 }
 
 .data {
@@ -52,22 +41,15 @@ body {
     background-color: rgba(21, 29, 90);
     border-radius: 20px;
     display: inline-block;
-    position: relative;
-    top: 110px;
 }
 
 .main-logo img {
-    position: absolute;
-    top: 60px;
-    left: 60px;
     width: 160px;
     height: 50px;
 }
 
 .small-logos {
-    position: absolute;
-    top: 140px;
-    left: 60px;
+
 }
 
 .small-logos div {
@@ -98,9 +80,6 @@ body {
     height: 65px;
     background: white;
     float: right;
-    position: relative;
-    top: -35px;
-    right: 90px;
     border-radius: 10px 10px 0 10px;
     text-align: center;
     padding-top: 5px;
@@ -112,9 +91,6 @@ body {
     font-size: 35px;
     font-weight: 700;
     color: rgba(10, 14, 36);
-    position: relative;
-    top: 5px;
-    right: 5px;
 }
 
 
@@ -125,16 +101,10 @@ body {
     border-bottom: 30px solid transparent;
     border-right: 30px solid white;
     float: right;
-    position: relative;
-    top: 30px;
-    left: 40px
 }
 
 p {
     color: white;
-    position: absolute;
-    top: 40px;
-    left: 50px;
     font-weight: 400;
     font-size: 20px;
 }
@@ -142,9 +112,6 @@ p {
 .bar {
     width: 620px;
     height: 20px;
-    position: absolute;
-    top: 80px;
-    left: 50px;
     border-radius: 50px;
     background: rgba(16, 20, 58)
 }
@@ -154,9 +121,6 @@ p {
     height: 14px;
     border-radius: 50px;
     background: linear-gradient(to right , rgba(255, 137, 131),rgba(255, 0, 134)); 
-    position: relative;
-    top: 3px;
-    left: 4px;
 }
 
 .pointer {
@@ -164,8 +128,6 @@ p {
     width: 10px;
     border-radius: 50px;
     background: white;
-    position: absolute;
-    left: 437px;
     margin-top: 1.8px;
 
 }
@@ -173,9 +135,6 @@ p {
 .left-row {
     font-size: 14px;
     color: white;
-    position: absolute;
-    top: 120px;
-    left: 50px;
     font-weight: 700;
 }
 
@@ -183,9 +142,6 @@ p {
     font-size: 14px;
     color: white;
     float: right;
-    position: relative;
-    top: 120px;
-    left: 120px;
     font-weight: 700;
 }
 
